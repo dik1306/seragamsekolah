@@ -1,0 +1,636 @@
+/* FILEPATH: /C:/laragon/www/websekolahrabbani/resources/css/app.css */
+
+/* Global styles */
+body {
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.5;
+}
+
+
+.dynamic {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}
+
+.d-grid-card {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 4px;
+    padding-left: 0;
+}
+
+.header {
+    background-image: url(../images/vector-2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20%;
+
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 1rem;
+}
+
+
+nav a:hover {
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(0.25turn, #5653ed, #db00ff);
+    border-image-slice: 1;
+    /* width: 100%; */
+}
+
+/* Main content styles */
+.container {
+    padding: 1rem;
+}
+
+main {
+    background-color: none;
+    position: relative;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 4px 4px #624F8F;
+
+  }
+
+  .btn-outline-plus-minus {
+    border: none !important;
+    margin: 0 !important;
+    padding: 0.4rem !important;
+  }
+
+  .input-number {
+    background-color: #F8F0FF;
+    border: none;
+	width: 40%;
+	text-align: center;
+	height: 25px;
+	overflow: hidden;
+  }
+
+.form-control {
+    border-radius: 1rem !important;
+    border-color: #624F8F !important;
+}
+
+.form-control-login {
+    border-color: white !important;
+}
+
+.input-group {
+    border: 2px solid #624F8F;
+    border-radius: 1rem ;
+}
+
+.input-group-text {
+    background-color: white !important;
+    margin-left: 0.4rem;
+    border: none !important;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+
+#header-carousel {
+  position: relative;
+}
+
+.carousel-caption {
+    color: black;
+    right: 58%;
+    text-align: center;
+    left: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+  font-size: 75px;
+  text-shadow: 4px 4px #624F8F;
+}
+
+.carousel-inner {
+    position: relative;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    filter: brightness(0.4);
+    position: relative;
+}
+
+.banner-2 {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 50%;
+    filter: brightness(0.4);
+    position: relative;
+}
+
+.vector-1 {
+    position: relative;
+    top: 0;
+}
+
+.vector-2 {
+    float: right;
+}
+
+.cloud-1 {
+    position: absolute;
+    top: 16%;
+    z-index: 1000;
+    width: 100%;
+    animation:
+    4s linear 0s infinite alternate toright;
+    
+}
+
+.cloud-2 {
+    position: absolute;
+    top: 16%;
+    z-index: 1000;
+    width: 100%;
+    
+}
+
+.cloud-3 {
+    position: absolute;
+    top: 16%;
+    z-index: 1000;
+    width: 100%;
+    animation:
+    4s linear 0s infinite alternate toright;
+}
+
+.cloud-4 {
+    position: absolute;
+    top: 16%;
+    z-index: 1000;
+    width: 100%; 
+}
+
+.cloud-hms {
+    position: absolute;
+    top: 21%;
+    z-index: 1000;
+    width: 100%;
+    animation:
+    4s linear 0s infinite alternate toright;
+}
+
+.cloud-hms2 {
+    position: absolute;
+    top: 21%;
+    z-index: 1000;
+    width: 100%; 
+}
+
+.cloud-pmnh {
+    position: absolute;
+    top: 35%;
+    z-index: 1000;
+    width: 100%;
+    animation:
+    4s linear 0s infinite alternate toright;
+}
+
+.cloud-pmnhn {
+    position: absolute;
+    top: 35%;
+    z-index: 1000;
+    width: 100%; 
+}
+
+
+@media only screen and (max-width: 600px) {
+    .cloud-1 {
+        position: absolute;
+        top: 2.5%;
+        z-index: 1000;
+        width: 100%;
+    }
+
+    .cloud-2 {
+        position: absolute;
+        top: 2.5%;
+        z-index: 1000;
+        width: 100%;
+    }
+
+    .cloud-3 {
+        position: absolute;
+        top: 5%;
+        z-index: 1000;
+        width: 100%;
+    }
+
+    .cloud-4 {
+        position: absolute;
+        top: 5%;
+        z-index: 1000;
+        width: 100%;
+    }
+
+    .cloud-hms {
+        position: absolute;
+        top: 5.8%;
+        z-index: 1000;
+        width: 100%;
+    }
+
+    .cloud-hms2 {
+        position: absolute;
+        top: 5.8%;
+        z-index: 1000;
+        width: 100%;
+    }
+
+    .centered {
+        position: absolute;
+        top: 4%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-shadow: 4px 4px #624F8F;
+    }
+  }
+
+.bg-kb {
+    background-color: #FCB415;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-sd {
+    background-color: #704996;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-primary {
+    background-color: #EB3C97;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-tk {
+    background-color: #EB3C97;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-smp {
+    background-color: #3152A4;
+    width: 100%;
+    height: 100%;
+}
+
+
+.jenjang-program {
+    background-image: linear-gradient(#FFF, #EEDDFF);
+}
+
+.badge-sun {
+    position: absolute;
+    right: 4%;
+    top: 0;
+}
+
+.badge-putih {
+    position: absolute;
+    left: 6%;
+    top: 2%;
+}
+
+.badge-pangsi {
+    position: absolute;
+    left: 10%;
+    top: 4%;
+}
+
+.badge-pramuka {
+    position: absolute;
+    right: 3%;
+    top: 2.5%;
+}
+
+.badge-kebaya {
+    position: absolute;
+    right: 10%;
+    top: 4%;
+}
+
+.star-1 {
+    position: absolute;
+    left: 25%;
+    top: 46%;
+}
+
+.star-2 {
+    position: absolute;
+    right: 25%;
+    top: 46%;
+}
+
+.star-3 {
+    position: absolute;
+    right: 10%;
+    top: 46%;
+}
+
+.star-4 {
+    position: absolute;
+    left: 12%;
+    top: 46%;
+}
+
+.star-1-profile {
+    position: absolute;
+    left: 25%;
+    top: 24%;
+}
+
+.star-2-profile {
+    position: absolute;
+    right: 25%;
+    top: 24%;
+}
+
+.star-3-profile {
+    position: absolute;
+    right: 10%;
+    top: 24%;
+}
+
+.star-4-profile {
+    position: absolute;
+    left: 12%;
+    top: 24%;
+}
+
+.star-5 {
+    position: absolute;
+    left: 20%;
+    bottom: 20%;
+}
+
+.star-5-profile {
+    position: absolute;
+    left: 20%;
+    bottom: 11%;
+}
+
+.rocket {
+    position: absolute;
+    left: 15%;
+    top: 48%;
+}
+
+.ufo {
+    position: absolute;
+    right: 15%;
+    top: 48%;
+}
+
+.rocket-profile {
+    position: absolute;
+    left: 15%;
+    bottom: 22%;
+}
+
+.ufo-profile {
+    position: absolute;
+    right: 15%;
+    top: 33%;
+}
+
+.panah-profile {
+    position: absolute;
+    right: 20%;
+    top: 16%;
+}
+
+.plane {
+    position: absolute;
+    left: 8%;
+}
+
+.puzzle {
+    position: absolute;
+    left: 45%;
+}
+
+.lamp {
+    position: absolute;
+    right: 8%;
+    top: -5%;
+}
+
+.bumi {
+    position: absolute;
+    left: 20%;
+    bottom: 32%;
+}
+
+.komet {
+    position: absolute;
+    right: 14%;
+    bottom: 26%;
+}
+
+.planet {
+    position: absolute;
+    right: 21%;
+    bottom: 20%;
+}
+
+.planet-profile {
+    position: absolute;
+    right: 21%;
+    bottom: 11%;
+}
+
+.perahu {
+    position: absolute;
+    left: 21%;
+    bottom: 3%;
+}
+
+.ufo-2 {
+    position: absolute;
+    right: 21%;
+    bottom: 4%;
+}
+
+.card-program {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.kegiatan {
+    position: relative;
+}
+
+.btn-primary {
+    background-color: #EB3C97 !important;
+    border: none !important;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem !important;
+    cursor: pointer;
+}
+
+.btn-blue {
+    background-color: #3152A4 !important;
+    color: #FFF !important;
+    border: none !important;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem !important;
+    cursor: pointer;
+}
+
+.btn-ukuran {
+    background-color: #F0F0F0 !important;
+    cursor: pointer;
+
+}
+
+.fasilitas {
+    background-image: linear-gradient( #EEDDFF, #FFF);
+}
+
+.bg-fasilitas {
+    background-color: #006193;
+    padding: 1rem;
+}
+
+.bg-logo {
+    background-color: #FFF;
+    padding: 1rem;
+    border-radius: 4rem;
+}
+
+.img-fasilitas {
+    position: absolute;
+    bottom: 5%;
+    width: 15%;
+    left: 10%;
+}
+
+.footer {
+   /* background-color: #; */
+}
+
+.karir {
+    background-image: linear-gradient( #FFF, #704996);
+    min-height: 100vh;
+}
+
+.foto-profile {
+    border: 1px solid black;
+    height: 120px;
+    width: 90px;
+}
+
+.custom-radios input[type="radio"] {
+    display: none;
+  }
+  .custom-radios input[type="radio"] + label {
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  .custom-radios input[type="radio"] + label span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .custom-radios input[type="radio"] + label span img {
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+  .custom-radios input[type="radio"]#color-3 + label span {
+    background-color: #f1c40f;
+  }
+  .custom-radios input[type="radio"]#color-4 + label span {
+    background-color: #e74c3c;
+  }
+  .custom-radios input[type="radio"]:checked + label span img {
+    opacity: 1;
+  }
+
+@keyframes toright {
+    from {
+      transform: translateX(1vw);
+    }
+    to {
+      transform: translateX(-1vw);
+    }
+  }
+
+  @media print {
+    .bg-tk {
+        background-color: #EB3C97 !important;
+        print-color-adjust: exact; 
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+@media print {
+    .vendorListHeading th {
+        color: white !important;
+    }
+}
+
