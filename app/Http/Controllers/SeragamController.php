@@ -21,7 +21,7 @@ class SeragamController extends Controller
     {
         $lokasi = Sekolah::select('id as kode_lokasi', 'sublokasi')->where('status', 1)->get();
         $produk_seragam = ProdukSeragam::all();
-        return view('seragam.index', compact('lokasi', 'produk_seragam'));
+        return view('seragam.tutup', compact('lokasi', 'produk_seragam'));
     }
 
     /**
